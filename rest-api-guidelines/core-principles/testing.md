@@ -12,7 +12,7 @@ Every adidas **CORE** API **MUST** be tested additionally applying Consumer Driv
 
 In addition to local runs, PACT tests **SHOULD** be an integral part of the API implementation's CI/CD pipeline. The CI/CD pipeline **SHOULD** be configured to run the test whenever there is a change to either API description \(contract\) or its implementation.
 
-Using Consumer Driven Contract Testing with PACT is *not mandatory* for adidas **NON-CORE** APIs, but strongly recommended due to the advantages this approach brings. It will be also a proof of our Software Engineering practices maturity.
+Using Consumer Driven Contract Testing with PACT is _not mandatory_ for adidas **NON-CORE** APIs, but strongly recommended due to the advantages this approach brings. It will be also a proof of our Software Engineering practices maturity.
 
-More information, guides and seeds about how to use PACT can be found on (internal link)[adidas Consumer Driven Contract Testing guide](https://tools.adidas-group.com/confluence/display/DSBP/adidas+Consumer+Driven+Contract+Testing+guide) page.
+More information, guides and seeds about how to use PACT can be found on \(internal link\)[adidas Consumer Driven Contract Testing guide](https://tools.adidas-group.com/confluence/display/DSBP/adidas+Consumer+Driven+Contract+Testing+guide) page.
 

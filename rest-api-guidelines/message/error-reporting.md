@@ -4,7 +4,7 @@ The [`application/problem+json`](https://tools.ietf.org/html/rfc7807) \(Problem 
 
 Problem Detail is intended for use with the HTTP status codes 4xx and 5xx. Problem Detail **MUST NOT** be used with 2xx status code responses.
 
-At the minimum, any Problem Detail response **MUST** have the `title` and `detail` fields. `title` value **SHOULD NOT** change from occurrence to occurence of the problem, except for purposes of localization (e.g., using proactive content negotiation) [read more](https://tools.ietf.org/html/rfc7807#section-3.1)
+At the minimum, any Problem Detail response **MUST** have the `title` and `detail` fields. `title` value **SHOULD NOT** change from occurrence to occurence of the problem, except for purposes of localization \(e.g., using proactive content negotiation\) [read more](https://tools.ietf.org/html/rfc7807#section-3.1)
 
 ### Example
 
@@ -129,3 +129,4 @@ An API description **MAY** list all the error codes with which the API responds.
 ## External resources
 
 There are a whole plethora of libraries working with Problem Detail, for example, see [Zalando / Problem](https://github.com/zalando/problem) \(Java\).
+

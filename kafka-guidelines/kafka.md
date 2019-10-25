@@ -2,5 +2,3 @@
 
 ## adidas Kafka Guidelines
 
-
-

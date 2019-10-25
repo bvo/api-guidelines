@@ -29,8 +29,8 @@ In the case of callback, the API and its client MUST agree on what HTTP method a
 ### Example
 
 1. **Initiate the asynchronous task**
-  
-    ```
+
+   ```text
     POST /feeds/tasks/ HTTP/1.1
     Content-Type: application/json
     ...
@@ -46,11 +46,11 @@ In the case of callback, the API and its client MUST agree on what HTTP method a
       "message": "Your task to generate feed has been accepted. Try query for result after 60 seconds.",
       "retryAfter": 60
     }
-    ```
+   ```
 
-1. **Poll the task status: In progress**
+2. **Poll the task status: In progress**
 
-    ```
+   ```text
     GET /feeds/tasks/1 HTTP/1.1
     ...
 
@@ -65,11 +65,11 @@ In the case of callback, the API and its client MUST agree on what HTTP method a
       "message": "Your feed is being generated. Try query for result after 30 seconds.",
       "retryAfter": 30
     }
-    ```
+   ```
 
-1. **Poll the task status: Finished**
+3. **Poll the task status: Finished**
 
-    ```
+   ```text
     GET /feeds/tasks/1 HTTP/1.1
     ...
 
@@ -85,11 +85,11 @@ In the case of callback, the API and its client MUST agree on what HTTP method a
       },
       "message": "Your feed is ready."
     }
-    ```
+   ```
 
-1. **Poll the task status: Failure**
+4. **Poll the task status: Failure**
 
-    ```
+   ```text
     GET /feeds/tasks/1 HTTP/1.1
     ...
 
@@ -101,5 +101,5 @@ In the case of callback, the API and its client MUST agree on what HTTP method a
       "detail: "Missing required input parameter XYZ.",
       "status": 400
     }
-    ```
+   ```
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [adidas API Guidelines](README.md)
+* [API Guidelines](README.md)
 
 ## General Guidelines
 

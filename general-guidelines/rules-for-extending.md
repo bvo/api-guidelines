@@ -8,7 +8,7 @@ In particular, any change to an API **MUST** follow the following **Rules for Ex
 
    , [Robustness Principle](robustness.md)\)
 
-2. **You MUST NOT change processing rules** 
+2. **You MUST NOT change processing rules**
 3. **You MUST NOT make optional things required**
 4. **Anything you add MUST be optional** \(related [Robustness Principle](robustness.md)\)
 
