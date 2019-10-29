@@ -23,7 +23,7 @@ It **SHOULD** has the `type` field with the identifier of the error, besides it 
 
 ```javascript
 {
-  "type": "https://adidas-group.com/problems/scv/unauthorized",
+  "type": "/problems/scv/unauthorized",
   "title": "Authentication required",
   "detail": "Missing authentication credentials for the Greeting resource.",
   "instance": "/greeting",
@@ -106,7 +106,7 @@ Content-Type: application/problem+json
 Content-Language: en
 
 {
-  "type": "https://adidas-group.com/problems/scv/unauthorized",
+  "type": "/problems/scv/unauthorized",
   "title": "Authentication required",
   "detail": "Missing authentication credentials for the Greeting resource.",
   "instance": "/greeting",
