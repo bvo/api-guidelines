@@ -1,6 +1,6 @@
 # Rate Limiting
 
-The API rate limiting is provided by the selected adidas API management platform – Mashery.
+The API rate limiting is provided by the selected API management platform – Mashery.
 
 Rate limit information is provided in the for of HTTP headers. There are two types of rate limits: **Quota** and **Throttle**. The quota is a limit enforced per a longer period \(typically a day\). The throttle is the limit of calls per second.
 

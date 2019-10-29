@@ -12,14 +12,11 @@
 
       > e.g.: User has many Orders via order relation, all of the required affordances should be mapped to relations.
 
-   3. Formalize the design in the [Open API Specification](http://swagger.io/specification/) \(OAS, formerly known as "Swagger"\) format
-   4. Follow the [adidas API guidelines](https://adidas.gitbook.io/api-guidelines/introduction/readme)
-   5. Put the OAS file into [Apiary adidas group](https://apiary.io)
-   6. Make sure the OAS file passes all adidas API Apiary style guide checks
-   7. Verify the design using Apiary Documentation and Apiary Mock Service
-   8. Review the API Design
-   9. Put the OAS file in a version control system \(VCS\) repository
-   10. Set up a CD pipeline to push OAS file from VCS to Apiary, whenever the file is changed
+   3. Formalize the design in Akwatype
+   4. Akwatype will generate the [Open API Specification](http://swagger.io/specification/) \(OAS, formerly known as "Swagger"\) format
+   5. Follow the [API guidelines](https://adidas.gitbook.io/api-guidelines/introduction/readme)
+   6. Review the API Design
+   7. Put the OAS file in a version control system \(VCS\) repository
 
 2. **Develop the API** 1. Check out the VCS repository with the OAS file 2. Set up the [Dredd API testing tool](https://github.com/apiaryio/dredd) locally 3. Configure the Dredd for your project
 
@@ -37,12 +34,12 @@
 
    3. Set up a [CI/CD pipeline](https://adidas-group.gitbooks.io/api-guidelines/content/guides/api-testing-ci-environment.html) to execute the Dredd tests automatically
 
-      > NOTE: Both TeamCity and Jenkins environments are available, contact adidas API evangelist for details.
+      > NOTE: Both TeamCity and Jenkins environments are available, contact API evangelist for details.
 
 3. **Deploy the API** 1. Deploy the service 2. Update the OAS file to add the deployment HOST
 
    > ```text
-   > host: adidas.api.mashery.com
+   > host: api.mashery.com
    > basePath: /demo-approval-api
    > ```
 
@@ -62,7 +59,7 @@
    4. Revisit the API Plan's API key default settings
    5. Revisit the API Plan's API default rate limits
    6. Revisit the API Plan's access policy/authorization
-   7. **API Documentation** 1. Create new adidas API developer's portal page in the Mashery
+   7. **API Documentation** 1. Create new API developer's portal page in the Mashery
 
       > Manage &gt; Content &gt; Documentation &gt; APIs
 
@@ -78,7 +75,7 @@
    3. Use API call inspector provided by Apiary
    4. Obtain your API key
 
-      > The key is part of the API Plan created in Mashery and can be requested from your dashboard in the adidas API developer's portal.
+      > The key is part of the API Plan created in Mashery and can be requested from your dashboard in the API developer's portal.
 
    5. When available use API implementation via Apiary proxy to debug the API calls
    6. Use production deployment
@@ -94,7 +91,7 @@
       1. Set to push the OAS file to Apiary but make sure to modify the Apiary project name
       2. Set to run Dredd test in the CI/CD
    4. Modify the design \(OAS file\) accordingly, follow the "Design API" step
-   5. Follow the [**rules for extending**](https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/rules-for-extending.html) and [**adidas API guidelines versioning policies**](https://adidas-group.gitbooks.io/api-guidelines/content/evolution/versioning.html)
+   5. Follow the [**rules for extending**](https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/rules-for-extending.html) and [**API guidelines versioning policies**](../evolution/versioning.md)
    6. Use VCS pull request \(PR\) to propose the change to review
    7. After the API Design change is verified, reviewed and approved, continue with the "Develop the API" phase
    8. Eventually, when the updated design is ready to be deployed for production, merge the branch into the production branch

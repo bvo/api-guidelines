@@ -37,5 +37,5 @@ The REST API Guidelines are further split into the following parts:
 * **Guides** Guides and materials supporting the REST API Guidelines
 * **API Clients**
 
-  Section dedicated to consumers of adidas APIs
+  Section dedicated to consumers of APIs
 

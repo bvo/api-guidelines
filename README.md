@@ -41,13 +41,13 @@ Refer to [RFC2119](https://www.ietf.org/rfc/rfc2119) for details.
 
 ### Questions & Comments
 
-_Please contact_ [_Zdenek.Nemec@externals.adidas-group.com_](mailto:Zdenek.Nemec@externals.adidas-group.com) or [_andrzej.jarzyna@adidas.com_](mailto:andrzej.jarzyna@adidas.com) _in the case of questions._
+_Please contact ? in the case of questions._
 
 ## Intended Use Cases
 
-This project is intended to provide the guidelines for design & development of APIs at adidas.
+This project is intended to provide the guidelines for design & development of APIs.
 
-adidas is not responsible for the usage of this software for different purposes that the ones described in the use cases.
+Nobody is responsible for the usage of this software for different purposes that the ones described in the use cases.
 
 ## License and Software Information
 

@@ -1,4 +1,4 @@
 # Introduction
 
-## adidas Kafka Guidelines
+## Kafka Guidelines
 

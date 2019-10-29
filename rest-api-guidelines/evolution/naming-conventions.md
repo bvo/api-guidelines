@@ -5,7 +5,7 @@
 * Use American English
 * Don't use acronyms
 * Use `camelCase` unless stated otherwise
-* Reconcile terms with adidas CDM
+* Reconcile terms with CDM
 
 Every identifier **MUST** be in American English and written in `lowercase`. An identifier **SHOULD NOT** contain acronyms. CamelCase \(`camelCase`\) **MUST** be used to delimit combined words.
 

@@ -123,5 +123,5 @@ The following checklist NEEDS TO BE followed while using an SSL certificate:
 
 ## Penetration Testing
 
-An exhaustive penetration testing needs to be performed against all the developed APIs exposed to the public internet and within adidas internal network. For detailed understanding of the process, please contact the adidas Global IT Security Team.
+An exhaustive penetration testing needs to be performed against all the developed APIs exposed to the public internet and within internal network. For detailed understanding of the process, please contact the  Global IT Security Team.
 

@@ -8,7 +8,7 @@ In addition to local runs, the tests **SHOULD** be an integral part the API impl
 
 ## PACT
 
-Every adidas **CORE** API **MUST** be tested additionally applying Consumer Driven Contract Testing principles. The tests **MUST** be executed using the [PACT contract testing tool](https://docs.pact.io/). PACT tests **MUST** use adidas [PACT-Broker](http://pact.ati.adidas.com/) to store results and evidences.
+Every **CORE** API **MUST** be tested additionally applying Consumer Driven Contract Testing principles. The tests **MUST** be executed using the [PACT contract testing tool](https://docs.pact.io/). PACT tests **MUST** use adidas [PACT-Broker](http://pact.ati.adidas.com/) to store results and evidences.
 
 In addition to local runs, PACT tests **SHOULD** be an integral part of the API implementation's CI/CD pipeline. The CI/CD pipeline **SHOULD** be configured to run the test whenever there is a change to either API description \(contract\) or its implementation.
 
