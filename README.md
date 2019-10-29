@@ -10,7 +10,7 @@ description: Guidelines for the API design and development
 
 ### Motivation
 
-The goal of this document is to facilitate the work and minimize the effort of all API users at adidas while protecting their investment and encouraging API adoption.
+The goal of this document is to facilitate the work and minimize the effort of all API users while protecting their investment and encouraging API adoption.
 
 These guidelines lay down the foundation for collaboration, stability, and extensibility.
 
